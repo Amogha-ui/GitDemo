@@ -18,6 +18,7 @@ public class ErrorValidation extends BaseTest{
 		landingpage.landingactions("arhaa@gmail.com", "Tinku@11911");
 		
 		Assert.assertEquals("Incorrect email password.", landingpage.getErrorMessage());
+		System.out.println("Error validation completed");
 		
 		
 		
